@@ -24,6 +24,8 @@ curl -sSf https://temporal.download/cli.sh | sh -s -- --version v0.14.0-nexus.0 
 ./bin/temporal server start-dev --dynamic-config-value system.enableNexus=true --http-port 7243
 ```
 
+Open Temporal UI on http://localhost:8233/
+
 ### Initialize environment
 
 In a separate terminal window
