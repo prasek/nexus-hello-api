@@ -40,9 +40,9 @@ In a separate terminal window
 #### Create Nexus endpoint
 
 ```
-./bin/temporal operator nexus endpoint delete --name my_nexus_endpoint_name
+./bin/temporal operator nexus endpoint delete --name myendpoint
 ./bin/temporal operator nexus endpoint create \
-  --name my_nexus_endpoint_name \
+  --name myendpoint \
   --target-namespace my-target-namespace \
   --target-task-queue my-handler-task-queue \
   --description-file ./nexus-hello-api/description.md
